@@ -23,9 +23,9 @@ const page = () => {
   };
 
   return (
-    <div className="absolute w-full h-[100vh] top-0 right-0 z-30">
-      <div className="fixed top-0 left-0 w-full h-[100vh] opacity-50 bg-black z-30" />
-      <div className="bg-white max-sm:w-[80%] max-sm:left-[10%] md:w-[50%]  top-[25%] left-[25%] rounded-2xl fixed z-50 p-5 flex flex-col justify-between">
+    <div className="absolute w-full h-[100vh] top-0 right-0 z-30 ">
+      <div className="fixed top-0 left-0 w-full h-[100vh] opacity-80 bg-black " />
+      <div className="bg-white max-sm:w-[80%] max-sm:left-[10%] md:w-[50%]  shadow-lg top-[25%] left-[25%] rounded-2xl fixed z-50 p-5 flex flex-col justify-between">
         <ul className="flex gap-5 justify-center  w-[80%] mx-auto">
           <li
             className="cursor-pointer border-2 border-transparent py-1 px-2 rounded-lg transition-all ease-in-out form-active-switch"

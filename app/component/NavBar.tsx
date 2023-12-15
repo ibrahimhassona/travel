@@ -31,7 +31,7 @@ export const goToSction = (e: string, event: MouseEvent) => {
   // start Active class
 };
 const NavBar = () => {
-  const [menuCtrl, SetmenuCtrl] = useState("");
+  const [menuCtrl, SetmenuCtrl] = useState("max-md:hidden");
   const [isMobile, SetisMobile] = useState(false);
   const IsmobileHandle = (SetisMobile: void) => {
     const menuIcon = document.querySelector(".menu-icon-border");

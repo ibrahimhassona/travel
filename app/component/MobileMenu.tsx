@@ -5,7 +5,7 @@ import { MobMenuProp } from "../types";
 
 const MobileMenu = ({ CtrlStyles }: MobMenuProp) => {
   return (
-    <div className={` mob-menu hidden ${CtrlStyles}`}>
+    <div className={` mob-menu  hidden ${CtrlStyles}`}>
       {NAV_LINKS.map((link) => (
         <div
           key={link.id}
